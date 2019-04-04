@@ -1,0 +1,12 @@
+<html>
+    <title>Post template html</title>
+
+    <body>
+        <h1>This is our list of posts</h1>
+        <!-- {{post_title}} -->
+        {% for post in post_objects %}
+                <p>{{ post }} </p>
+        {% endfor %}
+        <!-- {{ post_objects }} -->
+    </body>
+</html>
